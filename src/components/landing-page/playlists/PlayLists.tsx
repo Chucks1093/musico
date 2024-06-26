@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./style.scss";
 import { useDispatch, useSelector } from "react-redux";
-import { setNewID } from "../../../features/playlistSlice.jsx";
-import { setNewStat } from "../../../features/tracksStatus";
+import { setNewID } from "../../../features/playlistSlice.js";
+import { setNewStat } from "../../../features/tracksStatus.js";
 
 type PlayListProps = {
 	id: string;

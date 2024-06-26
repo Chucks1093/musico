@@ -6,7 +6,7 @@ import Header from "../../components/landing-page/header/Header"
 import Hero from "../../components/landing-page/hero/Hero"
 import PlayLists from "../../components/landing-page/playlists/PlayLists";
 import Stacks from "../../components/landing-page/stacks/Stacks";
-import Tracks from "../../components/landing-page/playlists_tracks/Tracks.jsx";
+import Tracks from "../../components/landing-page/playlists_tracks/Tracks.js";
 import "./style.scss";
 
 
