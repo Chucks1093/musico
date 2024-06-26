@@ -55,7 +55,7 @@ function Tracks() {
 		}
 	}
 
-	function checkIfPropsNotNull(props) 
+	function checkIfPropsNotNull(props){ 
 		if (Object.keys(playlist) === 0) {
 			return "null";
 		} else {
